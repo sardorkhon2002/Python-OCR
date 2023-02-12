@@ -1,0 +1,16 @@
+{% include "header.html" %} {% block body %}
+<div class="container">
+  <br />
+  <br />
+  <h1 class="text-center">Result</h1>
+  <hr />
+
+  <h2 class="text-center">Information</h2>
+  <p class="text-center">Words: {{ words }}</p>
+  <p class="text-center">Time of resizing and scanning: {{ time }} seconds</p>
+  <hr />
+
+  <h2 class="text-center">Extracted text</h2>
+  <pre>{{ text }}</pre>
+</div>
+{% endblock body %} {% include "footer.html" %}

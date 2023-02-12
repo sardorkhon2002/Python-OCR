@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(69, 142, 226, 0.815);
+}
+h4,
+h2,
+h1,
+p,
+pre {
+  color: #ffffff;
+}
+
+pre {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+hr {
+  background-color: #ffffff;
+}
